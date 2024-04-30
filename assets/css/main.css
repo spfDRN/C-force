@@ -29,6 +29,13 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+.links {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    margin-right: 25px;
+    margin-top: 100px;
+}
+
 body {
 	line-height: 1;
 }
@@ -1140,9 +1147,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1656,3 +1666,23 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+
+        .video iframe {
+  width: 100%;
+  max-width: 640px;
+  height: 380px;
+}
+
+@media(max-width: 680px) {
+  .video iframe {
+    max-width: 100%;
+    height: 300px;
+  }
+}
+
+@media(max-width: 4800px) {
+  .video iframe {
+    height: 250px;
+  }
+}
