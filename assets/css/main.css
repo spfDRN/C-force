@@ -1327,7 +1327,7 @@ input, select, textarea {
 				-ms-transition-delay: 0.25s;
 				transition-delay: 0.25s;
 				padding: 3rem 2rem;
-				max-height: 40rem;
+				max-height: 600rem;
 				overflow: hidden;
 			}
 
@@ -1365,7 +1365,7 @@ input, select, textarea {
 
 				#header nav ul li a {
 					display: block;
-					min-width: 7.5rem;
+					min-width: 10rem;
 					height: 2.75rem;
 					line-height: 2.75rem;
 					padding: 0 1.25rem 0 1.45rem;
